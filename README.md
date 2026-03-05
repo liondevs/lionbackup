@@ -65,7 +65,7 @@ python lionbackup.py
 Run without opening a terminal window:
 
 ``` bash
-pythonw lionbackup.py
+python lionbackup.py
 ```
 
 ------------------------------------------------------------------------
