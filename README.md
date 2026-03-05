@@ -3,8 +3,8 @@
 **Automatic backup tool with a graphical interface and system tray
 integration**
 
-![Version](https://img.shields.io/badge/version-1.0.0-orange)\
-![Python](https://img.shields.io/badge/python-3.7+-blue)\
+![Version](https://img.shields.io/badge/version-1.0.0-orange)
+![Python](https://img.shields.io/badge/python-3.7+-blue)
 
 ------------------------------------------------------------------------
 
@@ -17,7 +17,7 @@ If you find LionBackup useful, consider leaving a ⭐ on the repository.
 ## 📋 Overview
 
 LionBackup is a simple but reliable tool for automatically backing up
-files and folders.\
+files and folders.
 It runs quietly in the background as a system tray application and
 creates ZIP archives of your selected files at scheduled intervals.
 
@@ -28,15 +28,15 @@ without dealing with complex setup or configuration.
 
 ## ✨ Features
 
--   🎨 **Simple GUI** -- clean and easy-to-use interface\
--   🔄 **Automatic backups** -- files are archived at regular intervals\
+-   🎨 **Simple GUI** -- clean and easy-to-use interface
+-   🔄 **Automatic backups** -- files are archived at regular intervals
 -   📦 **ZIP compression** -- backups are stored as compressed ZIP
-    files\
+    files
 -   🔢 **Versioning** -- automatic numbering prevents overwriting
-    existing backups (`-2`, `-3`, `-4`, etc.)\
--   💾 **System tray integration** -- runs quietly in the background\
+    existing backups (`-2`, `-3`, `-4`, etc.)
+-   💾 **System tray integration** -- runs quietly in the background
 -   ⏱️ **Flexible intervals** -- set backups anywhere from 1 minute to
-    24 hours\
+    24 hours
 -   🦁 **Custom design** -- modern UI with a lion-themed style
 
 ------------------------------------------------------------------------
@@ -46,7 +46,7 @@ without dealing with complex setup or configuration.
 ### 1. Clone the repository
 
 ``` bash
-git clone https://github.com/yourusername/lionbackup.git
+git clone https://github.com/liondevs/lionbackup.git
 cd lionbackup
 ```
 
@@ -99,5 +99,12 @@ pyinstaller --name="LionBackup" ^
 
 If you run into any issues or have questions:
 
--   Open an **Issue** in the repository\
+-   Open an **Issue** in the repository
 -   Email: **martin.kostadinov1337@gmail.com**
+
+## 📄 License
+
+This project is licensed under the **LionBackup Source License**.
+
+See the full license here:  
+[LICENSE.md](LICENSE.md)
