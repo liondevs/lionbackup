@@ -1,62 +1,86 @@
 # 🦁 LionBackup
 
-**Автоматичен бекъп система с графичен интерфейс и system tray интеграция**
+**Automatic backup tool with a graphical interface and system tray
+integration**
 
-![Version](https://img.shields.io/badge/version-1.0.0-orange)
-![Python](https://img.shields.io/badge/python-3.7+-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-1.0.0-orange)\
+![Python](https://img.shields.io/badge/python-3.7+-blue)\
 
----
-##⭐ Харесай проекта
-Ако LionBackup ти е полезен, остави ⭐ на проекта!
+------------------------------------------------------------------------
 
-## 📋 Описание
+## ⭐ Like the project
 
-LionBackup е мощна и лесна за използване програма за автоматичен бекъп на файлове и папки. Програмата работи в background като system tray приложение и автоматично създава ZIP архиви на определени интервали.
+If you find LionBackup useful, consider leaving a ⭐ on the repository.
 
-### ✨ Ключови функционалности
+------------------------------------------------------------------------
 
-- 🎨 **Интуитивен GUI интерфейс** - Лесен за използване графичен интерфейс
-- 🔄 **Автоматичен бекъп** - Периодично архивиране на файлове
-- 📦 **ZIP компресия** - Автоматично създаване на ZIP архиви
-- 🔢 **Версиониране** - Автоматична номерация без презаписване (-2, -3, -4...)
-- 💾 **System Tray интеграция** - Работи в background в скритите икони
-- ⏱️ **Гъвкави интервали** - От 1 минута до 24 часа
-- 🦁 **Красив дизайн** - Модерен интерфейс с lion тема
+## 📋 Overview
 
----
+LionBackup is a simple but reliable tool for automatically backing up
+files and folders.\
+It runs quietly in the background as a system tray application and
+creates ZIP archives of your selected files at scheduled intervals.
 
-## 🚀 Инсталация
+The goal of the project is to provide an easy way to automate backups
+without dealing with complex setup or configuration.
 
-### Стъпка 1: Клониране на проекта
-```bash
+------------------------------------------------------------------------
+
+## ✨ Features
+
+-   🎨 **Simple GUI** -- clean and easy-to-use interface\
+-   🔄 **Automatic backups** -- files are archived at regular intervals\
+-   📦 **ZIP compression** -- backups are stored as compressed ZIP
+    files\
+-   🔢 **Versioning** -- automatic numbering prevents overwriting
+    existing backups (`-2`, `-3`, `-4`, etc.)\
+-   💾 **System tray integration** -- runs quietly in the background\
+-   ⏱️ **Flexible intervals** -- set backups anywhere from 1 minute to
+    24 hours\
+-   🦁 **Custom design** -- modern UI with a lion-themed style
+
+------------------------------------------------------------------------
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+``` bash
 git clone https://github.com/yourusername/lionbackup.git
 cd lionbackup
 ```
 
-### Стъпка 2: Инсталиране на зависимости
-```bash
+### 2. Install dependencies
+
+``` bash
 pip install -r requirements.txt
 ```
 
-### Стъпка 3: Стартиране
-```bash
+### 3. Run the application
+
+``` bash
 python lionbackup.py
 ```
-или без терминал:
-```bash
+
+Run without opening a terminal window:
+
+``` bash
 pythonw lionbackup.py
 ```
 
-### 📦 Build на .EXE файл
+------------------------------------------------------------------------
 
-### Метод 1: Основен build (по-бърз)
-```bash
+## 📦 Building a .exe
+
+### Method 1 --- Basic build (faster)
+
+``` bash
 pyinstaller --name="LionBackup" --onefile --windowed --icon=lion.ico lionbackup.py
 ```
 
-### Метод 2: Оптимизиран build (препоръчва се)
-```bash
+### Method 2 --- Optimized build (recommended)
+
+``` bash
 pyinstaller --name="LionBackup" ^
             --onefile ^
             --windowed ^
@@ -69,8 +93,11 @@ pyinstaller --name="LionBackup" ^
             lionbackup.py
 ```
 
-###📞 Поддръжка
-Ако имаш въпроси или проблеми:
+------------------------------------------------------------------------
 
-Отвори Issue
-Пиши на martin@liondevs.com
+## 📞 Support
+
+If you run into any issues or have questions:
+
+-   Open an **Issue** in the repository\
+-   Email: **martin.kostadinov1337@gmail.com**
